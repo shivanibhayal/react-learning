@@ -23,6 +23,7 @@ if(event.target.checked){
       <input type='checkbox' id='java' value="java" onChange={handleSkills}/><br/><br/>
       <label htmlFor='python'>PYTHON</label>
       <input type='checkbox' id='python' value="python" onChange={handleSkills}/><br/><br/>
+      
         <h3>{skills}</h3>
     </div>
   
