@@ -12,6 +12,10 @@ import Wrapper from './Wrapper';
 import InputField from './InputField';
 import ControlledCompo from './ControlledCompo';
 import Checkbox from './Checkbox';
+import RadioButton from './RadioButton';
+import Map from './Map';
+import DigitalClock from './DigitalClock';
+
 
 function App() {
 
@@ -88,6 +92,10 @@ function App() {
 {/* <ControlledCompo/> */}
 
 <Checkbox/>
+<RadioButton/>
+<Map/>
+
+<DigitalClock/>
     </>
   )
 }
